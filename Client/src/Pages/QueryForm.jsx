@@ -68,8 +68,6 @@ const QueryForm = () => {
       Double_Disc_Polishing: "",
     },
   });
-
-  // const baseUrl = "http://localhost:9000";
  
   const baseUrl = "https://mrlgndec-289c.vercel.app";
 
