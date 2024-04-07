@@ -69,43 +69,7 @@ const QueryForm = () => {
     },
   });
  
-
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData((prevState) => ({
-      ...prevState,
-      [name]: value,
-    }));
-  };
-
-  const handleCheckboxChange = (e) => {
-    const { name, checked } = e.target;
-    setFormData((prevState) => ({
-      ...prevState,
-      testingFacilities: {
-        ...prevState.testingFacilities,
-        [name]: checked,
-      },
-    }));
-  };
-
-  const handleSampleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData((prevState) => ({
-      ...prevState,
-      samples: {
-        ...prevState.samples,
-        [name]: value,
-      },
-    }));
-  };
-
   const baseUrl = "https://mrlgndec-289c.vercel.app";
-
-  const handlePDFView = () => {
-    // Logic to open PDF in a new tab
-    window.open("/Testingcharges.pdf", "_blank");
-  };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -194,6 +158,41 @@ const QueryForm = () => {
       console.error("Error submitting query form:", error);
       toast.error("An error occurred. Please try again later.");
     }
+  };
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prevState) => ({
+      ...prevState,
+      [name]: value,
+    }));
+  };
+
+  const handleCheckboxChange = (e) => {
+    const { name, checked } = e.target;
+    setFormData((prevState) => ({
+      ...prevState,
+      testingFacilities: {
+        ...prevState.testingFacilities,
+        [name]: checked,
+      },
+    }));
+  };
+
+  const handleSampleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prevState) => ({
+      ...prevState,
+      samples: {
+        ...prevState.samples,
+        [name]: value,
+      },
+    }));
+  };
+
+  const handlePDFView = () => {
+    // Logic to open PDF in a new tab
+    window.open("/Testingcharges.pdf", "_blank");
   };
 
   return (
