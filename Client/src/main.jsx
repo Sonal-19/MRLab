@@ -24,8 +24,6 @@ import TwinScrewExtruder from "./Components/Testings/TwinScrewExtruder.jsx";
 import UniversalTensilTester from "./Components/Testings/UniversalTensilTester.jsx";
 import VapourSmoothening from "./Components/Testings/VapourSmoothening.jsx";
 import QueryForm from "./Pages/QueryForm.jsx";
-import Form from "./Pages/Form.jsx";
-import MyForm from "./Pages/MyForm.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -53,8 +51,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
           <Route path="/universal-tensil-tester" element={<UniversalTensilTester/>} />
           <Route path="/vapour-smoothening" element={<VapourSmoothening/>} />
           <Route path="/queryform" element={<QueryForm/>} />
-          <Route path="/form" element={<Form/>} />
-          <Route path="/myform" element={<MyForm/>} />
           
         </Route>
       </Routes>
