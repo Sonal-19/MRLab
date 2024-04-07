@@ -71,7 +71,8 @@ const QueryForm = () => {
  
   const baseUrl = "https://mrlgndec-289c.vercel.app";
 
-  const sendQueryForm = async () => {
+  const handleSubmit = async (e) => {
+    e.preventDefault();
     try {
       const response = await fetch(`${baseUrl}/email/sendQueryForm`, {
         method: "POST",
@@ -218,12 +219,7 @@ const QueryForm = () => {
       <div className="w-full flex justify-center">
         <div className="w-full md:w-1/2 p-4">
           <div className="card rounded bg-slate-300 border shadow-lg p-4">
-            <form 
-              onSubmit={(e) => {
-                e.preventDefault(); // Prevent default form submission
-                sendQueryForm(); // Call sendEmail function on form submission
-              }}
-            className="max-w-lg mx-auto">
+            <form onSubmit={handleSubmit} className="max-w-lg mx-auto">
               <div className="mb-4">
                 <label htmlFor="name" className="block mb-1 text-lg">
                   Name
