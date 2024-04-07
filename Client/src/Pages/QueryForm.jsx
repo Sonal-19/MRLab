@@ -69,7 +69,6 @@ const QueryForm = () => {
     },
   });
  
-  const baseUrl = "https://mrlgndec-289c.vercel.app";
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -100,6 +99,8 @@ const QueryForm = () => {
       },
     }));
   };
+
+  const baseUrl = "https://mrlgndec-289c.vercel.app";
 
   const handlePDFView = () => {
     // Logic to open PDF in a new tab
