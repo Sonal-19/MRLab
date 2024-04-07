@@ -71,7 +71,7 @@ const QueryForm = () => {
 
   // const baseUrl = "http://localhost:9000";
   //Api
-  const baseUrl = "https://manufacturing-research-laboratory-gndec.vercel.app";
+  const baseUrl = "https://mrlgndec-289c.vercel.app/";
 
   const handleChange = (e) => {
     const { name, value } = e.target;
