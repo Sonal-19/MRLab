@@ -1,5 +1,5 @@
-const express = require("express");
 const dotenv = require("dotenv");
+const express = require("express");
 const emailRoutes = require("./Routes/emailRoutes");
 
 const app = express();
@@ -15,14 +15,12 @@ const corsOptions = {
 };
 
 app.use(cors(corsOptions));
-
+app.use(express.json()); 
+app.use("/email", emailRoutes);
 
 app.get("/",(req, res)=>{
   res.send("hello world")
 })
-
-app.use(express.json()); 
-app.use("/email", emailRoutes);
 
 
 const PORT = process.env.PORT;
