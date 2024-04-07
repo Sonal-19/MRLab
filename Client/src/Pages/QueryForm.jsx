@@ -70,6 +70,7 @@ const QueryForm = () => {
   });
  
   const baseUrl = "https://mrlgndec-289c.vercel.app";
+  // const baseUrl = "https://mrlgndec-289c.vercel.app";
 
   const sendQueryForm = async () => {
     try {
