@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Disclosure } from "@headlessui/react";
-import { MailIcon, LocationMarkerIcon, PhoneIcon } from "@heroicons/react/outline"; 
+import { MailIcon, LocationMarkerIcon, PhoneIcon } from "@heroicons/react/outline";
 import { MenuIcon, XIcon, ChevronDownIcon } from "@heroicons/react/outline";
 import { Link } from "react-router-dom";
 
@@ -29,12 +29,11 @@ export default function Navbar() {
     { name: "Cryo Mill", path: "/cryo-mill" },
     { name: "Universal Milling Machine", path: "/universal-tensil-tester" },
     { name: "Abrasive Cutting Machine", path: "/abrasive-cutting-machine" },
-    { name: "Double Disc Polishing Machine", path: "/double-disc-polishing-machine"},
+    { name: "Double Disc Polishing Machine", path: "/double-disc-polishing-machine" },
     { name: "Injection Molding Machine", path: "/injection-modeling-machine" },
     { name: "Melt Flow Tester", path: "/melt-flow-tester" },
     { name: "3d Printer (U Print SE)", path: "/pinter" },
     { name: "Vapour Smoothening", path: "/vapour-smoothening" },
-   
   ];
 
   const handleNavLinkClick = (name) => {
@@ -61,7 +60,7 @@ export default function Navbar() {
                 <p className="mr-4">GNDEC, Ludhiana, Punjab</p>
               </div>
               <div className="flex items-center me-2">
-                <PhoneIcon className="h-5 w-5 mr-1" /> 
+                <PhoneIcon className="h-5 w-5 mr-1" />
                 <p className="mr-4">0161 5064709</p>
               </div>
             </div>
