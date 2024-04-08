@@ -73,7 +73,7 @@ function IntroductionSection() {
             </h1>
             <Link
               className="text-white mt-2 font-medium border-2 border-white bg-none hover:bg-white hover:text-indigo-900 rounded-md px-6 py-2 text-xl md:text-2xl lg:text-3xl transition-all"
-              href="/queryform"
+              to="/queryform"
             >
               Explore Now
             </Link>
