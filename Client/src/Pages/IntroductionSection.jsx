@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from "react-router-dom";
 import { IoChevronBack, IoChevronForward } from 'react-icons/io5';
 
 function IntroductionSection() {
@@ -70,12 +71,12 @@ function IntroductionSection() {
             <h1 className="text-4xl md:text-6xl lg:text-8xl mb-8 font-medium">
               Manufacturing Research Lab
             </h1>
-            <a
+            <Link
               className="text-white mt-2 font-medium border-2 border-white bg-none hover:bg-white hover:text-indigo-900 rounded-md px-6 py-2 text-xl md:text-2xl lg:text-3xl transition-all"
               href="/queryform"
             >
               Explore Now
-            </a>
+            </Link>
           </div>
         </div>
         {/* Left Arrow */}
