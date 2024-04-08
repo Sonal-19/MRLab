@@ -97,7 +97,7 @@ export default function Navbar() {
                     className="text-black-600 hover:text-red-600 hover:underline text-sm font-serif flex items-center"
                   >
                     <span>Testing Facilities</span>
-                    <ChevronDownIcon className="w-4 h-4 ml-1" aria-hidden="true" />
+                    <ChevronDownIcon className="w-5 h-5 ml-1" aria-hidden="true" />
                   </button>
                   {isTestingFacilitiesOpen && (
                     <div className="origin-top-right absolute right-0 mt-2 w-56 h-80 overflow-y-auto rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none">
@@ -107,7 +107,7 @@ export default function Navbar() {
                             key={index}
                             to={facility.path}
                             className={classNames(
-                              "block px-2 py-1 text-xs border-b border-gray-200 hover:bg-gray-100"
+                              "block px-2 py-1 text-sm border-b border-gray-200 hover:bg-gray-100"
                             )}
                           >
                             {facility.name}
@@ -160,10 +160,10 @@ export default function Navbar() {
                 <div className="relative inline-block text-left">
                   <button
                     onClick={toggleTestingFacilities}
-                    className="text-black-600 hover:text-indigo-400 hover:underline px-2 py-2 text-sm font-medium flex items-center"
+                    className="text-black-600 hover:text-indigo-400 hover:underline px-3 py-3 text-lg font-medium flex items-center"
                   >
                     <span>Testing Facilities</span>
-                    <ChevronDownIcon className="w-4 h-4 ml-1" aria-hidden="true" />
+                    <ChevronDownIcon className="w-5 h-5 ml-1" aria-hidden="true" />
                   </button>
                   {isTestingFacilitiesOpen && (
                     <div className="origin-top-right absolute right-0 mt-2 w-56 h-80 overflow-y-auto rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none">
@@ -173,7 +173,7 @@ export default function Navbar() {
                             key={index}
                             to={facility.path}
                             className={classNames(
-                              "block px-2 py-1 text-xs border-b border-gray-200 hover:bg-gray-100"
+                              "block px-4 py-2 text-sm border-b border-gray-200 hover:bg-gray-100"
                             )}
                           >
                             {facility.name}
