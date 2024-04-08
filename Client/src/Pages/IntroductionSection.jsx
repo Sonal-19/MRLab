@@ -8,23 +8,53 @@ function IntroductionSection() {
       url: '/test.jpg',
     },
     {
-      url: '/lab1.jpg',
+      url: '/l1.jpg',
     },
     {
-      url: '/lab2.jpg',
+      url: '/l2.jpg',
     },
     {
-      url: '/lab8.jpg',
+      url: '/l3.jpg',
     },
     {
-      url: '/lab9.jpg',
+      url: '/l4.jpg',
     },
     {
-      url: '/lab10.jpg',
+      url: '/l5.jpg',
     },
     {
-      url: '/lab12.jpg',
+      url: '/l6.jpg',
     },
+    {
+      url: '/l7.jpg',
+    },
+    {
+      url: '/l8.jpg',
+    },
+    {
+      url: '/l9.jpg',
+    },
+    {
+      url: '/l10.jpg',
+    },
+    {
+      url: '/l11.jpg',
+    },
+    // {
+    //   url: '/lab2.jpg',
+    // },
+    // {
+    //   url: '/lab8.jpg',
+    // },
+    // {
+    //   url: '/lab9.jpg',
+    // },
+    // {
+    //   url: '/lab10.jpg',
+    // },
+    // {
+    //   url: '/lab12.jpg',
+    // },
     
   ];
 
