@@ -56,6 +56,7 @@ function IntroductionSection() {
     //   url: '/lab12.jpg',
     // },
     
+    // slider image
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -90,7 +91,7 @@ function IntroductionSection() {
           style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
           className='w-full h-full rounded-2xl bg-center bg-cover duration-500'
         > 
-          {/* Welcome Message */}
+          {/* Welcome Message Display */}
           <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white">
             <h1 className="text-3xl md:text-5xl lg:text-7xl mt-5 mb-4 font-medium">
               Welcome to our
