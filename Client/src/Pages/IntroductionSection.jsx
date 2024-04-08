@@ -81,7 +81,7 @@ function IntroductionSection() {
       nextSlide();
     }, 3000); // Change slide every 3 seconds
     return () => clearInterval(interval);
-  }, [currentIndex]); // Run effect when currentIndex changes
+  }, [currentIndex]); 
 
   return (
     <>
