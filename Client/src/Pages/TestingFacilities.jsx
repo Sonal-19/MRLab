@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const TestingFacilities = () => {
   return (
@@ -45,11 +46,13 @@ const TestingFacilities = () => {
                 Differential scanning calorimetry (DSC) is the most frequently used thermal analysis
                 technique. 
                 </p>
-                <a
+                {/* <a
                   href="/dsc"
                   className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">
                   Read More
-                </a>
+                </a> */}
+                <Link className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"
+                to="/dsc">Read More</Link>
               </div>
             </div>
 

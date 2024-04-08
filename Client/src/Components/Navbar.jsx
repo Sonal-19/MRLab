@@ -119,14 +119,19 @@ export default function Navbar() {
                 </div>
               </div>
               {/* Query Button - Only for Desktop */}
-              <div className="hidden sm:block font-serif absolute lg:right-0 lg:top-0 lg:mb-2">
+              {/* <div className="hidden sm:block font-serif absolute lg:right-0 lg:top-0 lg:mb-2">
                 <a href="/queryform">
                   <button className="bg-green-500 text-white rounded-md px-6 py-4 text-lg font-serif">
-                    {/* Query */}
                     Get A Quote › 👈
                   </button>
                 </a>
+              </div> */}
+
+               <div className="hidden sm:block font-serif absolute lg:right-0 lg:top-0 lg:mb-2">
+                 <Link className="bg-green-500 text-white rounded-md px-6 py-4 text-lg font-serif"
+                to="/queryform">Get A Quote › 👈</Link>
               </div>
+              
               {/* Mobile Menu Button */}
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                 <Disclosure.Button className="sm:hidden relative inline-flex items-center justify-center rounded-md p-2 text-indigo-600 hover:bg-indigo-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-600">
