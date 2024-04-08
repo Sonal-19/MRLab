@@ -75,7 +75,7 @@ export default function Navbar() {
                 </a>
               </div>
               {/* Navigation */}
-              <div className="hidden sm:flex flex-grow justify-center font-medium text-black items-center space-x-4 lg:mt-5 ml-12 lg:ml-20">
+              <div className="hidden sm:flex flex-grow justify-center font-base text-black items-center space-x-4 lg:mt-5 ml-12 lg:ml-20">
                 {navigation.map((item) => (
                   <Link
                     key={item.name}
