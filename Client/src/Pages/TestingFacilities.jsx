@@ -73,11 +73,8 @@ const TestingFacilities = () => {
                 Fourier-transform infrared spectroscopy(FTIR) is a technique used to obtain
                 an infrared spectrum of absorption or emission of a solid, liquid, or gas.
                 </p>
-                <a
-                  href="/ftir"
-                  className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">
-                  Read More
-                </a>
+                <Link className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"
+                to="/ftir">Read More</Link>
               </div>
             </div>
 
@@ -98,11 +95,9 @@ const TestingFacilities = () => {
                 When compounding expensive or small scale materials such as nano-composites or engineered
                 polymers, you need a fast, dependable, cost efficient method to obtain tangible results.
                 </p>
-                <a
-                  href="/twin-screw-extruder"
-                  className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">
-                  Read More
-                </a>
+                <Link className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"
+                to="/twin-screw-extruder"
+                >Read More</Link>
               </div>
             </div>
 
@@ -123,11 +118,9 @@ const TestingFacilities = () => {
                 It is mainly used for the micro Vickers hardness measurement of various metals and some
                   non-metallic materials.
                 </p>
-                <a
-                  href="/micro-vector-hardness-tester"
-                  className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">
-                  Read More
-                </a>
+                <Link className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"
+                to="/micro-vector-hardness-tester"
+                >Read More</Link>
               </div>
             </div>
 
@@ -148,11 +141,9 @@ const TestingFacilities = () => {
                 Pin on Disc Tribometer conducting test for evaluation of co efficient of friction, Frictional
                 force and wear on metals &amp; Non metals for both dry and lubricated condition under sliding contact.
                 </p>
-                <a
-                  href="/tribometer"
-                  className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">
-                  Read More
-                </a>
+                <Link className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"
+                to="/tribometer"
+                >Read More</Link>
               </div>
             </div>
 
@@ -173,11 +164,9 @@ const TestingFacilities = () => {
                   Single Screw Extruder: Utilized for processing various
                   materials in engineering research.
                 </p>
-                <a
-                  href="/twin-screw-extruder"
-                  className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">
-                  Read More
-                </a>
+                <Link className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"
+                to="/twin-screw-extruder"
+                >Read More</Link>
               </div>
             </div>
 
@@ -198,11 +187,9 @@ const TestingFacilities = () => {
                 Cryogenic grinding is a process where thermally sensitive and elastic substances are
                 successfully processed by cooling with liquid nitrogen.
                 </p>
-                <a
-                  href="/cryo-mill"
-                  className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">
-                  Read More
-                </a>
+                <Link className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"
+                to="/cryo-mill"
+                >Read More</Link>
               </div>
             </div>
 
@@ -223,11 +210,10 @@ const TestingFacilities = () => {
                   Universal Milling Machine: Versatile equipment for shaping
                   materials in manufacturing processes.
                 </p>
-                <a
-                  href="/"
-                  className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">
-                  Read More
-                </a>
+                
+                {/* <Link className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"
+                to="/cryo-mill"
+                >Read More</Link> */}
               </div>
             </div>
 
@@ -248,11 +234,9 @@ const TestingFacilities = () => {
                   Digital Shore Hardness Tester: Determines material hardness
                   using digital technology for accuracy.
                 </p>
-                <a
-                  href="/"
-                  className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">
-                  Read More
-                </a>
+                {/* <Link className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"
+                to="/cryo-mill"
+                >Read More</Link> */}
               </div>
             </div>
 
@@ -273,11 +257,9 @@ const TestingFacilities = () => {
                   3D Printer Ultimaker 2+: High-performance 3D printing for
                   rapid prototyping and research.
                 </p>
-                <a
-                  href="/printer"
-                  className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">
-                  Read More
-                </a>
+                <Link className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"
+                to="/printer"
+                >Read More</Link>
               </div>
             </div>
 
@@ -298,11 +280,9 @@ const TestingFacilities = () => {
                   3D Printer Prusa i3: Cost-effective 3D printing solution for
                   various engineering applications.
                 </p>
-                <a
-                  href="/printer"
-                  className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">
-                  Read More
-                </a>
+                <Link className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"
+                to="/printer"
+                >Read More</Link>
               </div>
             </div>
 
@@ -323,11 +303,9 @@ const TestingFacilities = () => {
                   3D Printer Accucraft i250: Precision 3D printing with a focus
                   on efficiency and reliability.
                 </p>
-                <a
-                  href="/printer"
-                  className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">
-                  Read More
-                </a>
+                <Link className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"
+                to="/printer"
+                >Read More</Link>
               </div>
             </div>
 
@@ -348,11 +326,9 @@ const TestingFacilities = () => {
                 This Universal Testing Machines is electro mechanical machine with digital display of load &amp;
                   displacement &amp; pulley belt system for changing speeds.
                 </p>
-                <a
-                  href="/universal-tensil-tester"
-                  className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">
-                  Read More
-                </a>
+                <Link className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"
+                to="/universal-tensil-tester"
+                >Read More</Link>
               </div>
             </div>
 
@@ -373,11 +349,9 @@ const TestingFacilities = () => {
                 This machine is used to fabricate the product by melting and pressurizing the material into
                 the die. It is normally used for the injection of polymer material.
                 </p>
-                <a
-                  href="/injection-modeling-machine"
-                  className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">
-                  Read More
-                </a>
+                <Link className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"
+                to="/injection-modeling-machine"
+                >Read More</Link>
               </div>
             </div>
 
@@ -398,11 +372,9 @@ const TestingFacilities = () => {
                   Digital Micro Hardness Tester: Measures material hardness at a
                   microscopic level with digital precision.
                 </p>
-                <a
-                  href="/"
-                  className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">
-                  Read More
-                </a>
+                <Link className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"
+                to="/injection-modeling-machine"
+                >Read More</Link>
               </div>
             </div> */}
 
@@ -423,11 +395,9 @@ const TestingFacilities = () => {
                With little labor and a short processing cycle, the Finishing Touch™ Smoothing Station yields prototypes, tools and end-use
                 parts that have finishes that are ready for paint, plating or production.
                 </p>
-                <a
-                  href="/vapour-smoothening"
-                  className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">
-                  Read More
-                </a>
+                <Link className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"
+                to="/vapour-smoothening"
+                >Read More</Link>
               </div>
             </div>
 
@@ -448,11 +418,9 @@ const TestingFacilities = () => {
                   Air Jet Erosion Tester: Evaluates material erosion resistance
                   under high-velocity air jet conditions.
                 </p>
-                <a
-                  href="/"
-                  className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">
-                  Read More
-                </a>
+                {/* <Link className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"
+                to="/vapour-smoothening"
+                >Read More</Link> */}
               </div>
             </div>
 
@@ -473,11 +441,9 @@ const TestingFacilities = () => {
                   Metallurgical Sample Saw: Cuts metallurgical samples with
                   precision for analysis.
                 </p>
-                <a
-                  href="/"
-                  className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">
-                  Read More
-                </a>
+                {/* <Link className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"
+                to="/vapour-smoothening"
+                >Read More</Link> */}
               </div>
             </div>
 
@@ -498,11 +464,9 @@ const TestingFacilities = () => {
                   Abrasive Cutting Machine: Cuts materials using abrasive tools
                   for precise shaping. Study floor model cutter for sectioning metals, ceramics and mineral samples.
                 </p>
-                <a
-                  href="/abrasive-cutting-machine"
-                  className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">
-                  Read More
-                </a>
+                <Link className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"
+                to="/abrasive-cutting-machine"
+                >Read More</Link>
               </div>
             </div>
 
@@ -523,11 +487,9 @@ const TestingFacilities = () => {
                 Polishing M /c is used for polishing the Metallographic samples. Double Disc is driven by high torque
                 motor. The speed can be continuously varied as indicated.
                 </p>
-                <a
-                  href="/double-disc-polishing-machine"
-                  className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">
-                  Read More
-                </a>
+                <Link className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"
+                to="/double-disc-polishing-machine" 
+                >Read More</Link>
               </div>
             </div>
 
@@ -548,11 +510,9 @@ const TestingFacilities = () => {
                   Vacuum Oven: Applies controlled vacuum conditions for drying
                   and curing materials.
                 </p>
-                <a
-                  href="/"
-                  className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">
-                  Read More
-                </a>
+                {/* <Link className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"
+                to="/double-disc-polishing-machine" 
+                >Read More</Link> */}
               </div>
             </div>
 
@@ -573,11 +533,9 @@ const TestingFacilities = () => {
                   Sieve Shaker: Separates particles of different sizes in
                   materials for analysis or processing.
                 </p>
-                <a
-                  href="/"
-                  className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">
-                  Read More
-                </a>
+                {/* <Link className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"
+                to="/double-disc-polishing-machine" 
+                >Read More</Link> */}
               </div>
             </div>
 
@@ -598,11 +556,9 @@ const TestingFacilities = () => {
                   Melt Flow Tester: Measures the flow properties of molten
                   polymers for processing evaluation.
                 </p>
-                <a
-                  href="/melt-flow-tester"
-                  className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">
-                  Read More
-                </a>
+                <Link className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"
+                to="/melt-flow-tester" 
+                >Read More</Link>
               </div>
             </div>
 
@@ -623,11 +579,9 @@ const TestingFacilities = () => {
                   Hot Air Oven: Provides controlled heat treatment for materials
                   in various applications.
                 </p>
-                <a
-                  href="/"
-                  className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">
-                  Read More
-                </a>
+                {/* <Link className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"
+                to="/melt-flow-tester" 
+                >Read More</Link> */}
               </div>
             </div>
 
@@ -648,11 +602,9 @@ const TestingFacilities = () => {
                   Tool Maker’s Microscope: Enables detailed inspection and
                   measurement of tooling components.
                 </p>
-                <a
-                  href="/"
-                  className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">
-                  Read More
-                </a>
+                {/* <Link className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"
+                to="/melt-flow-tester" 
+                >Read More</Link> */}
               </div>
             </div>
 
@@ -673,11 +625,9 @@ const TestingFacilities = () => {
                   FLIR Infrared Thermometer: Measures surface temperatures
                   accurately using infrared technology.
                 </p>
-                <a
-                  href="/"
-                  className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">
-                  Read More
-                </a>
+                {/* <Link className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"
+                to="/melt-flow-tester" 
+                >Read More</Link> */}
               </div>
             </div>
 
@@ -698,11 +648,9 @@ const TestingFacilities = () => {
                   Vibratory Finishing Machine: Achieves surface finishing of
                   materials through vibratory agitation.
                 </p>
-                <a
-                  href="/"
-                  className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">
-                  Read More
-                </a>
+                {/* <Link className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"
+                to="/melt-flow-tester" 
+                >Read More</Link> */}
               </div>
             </div>
 
@@ -723,11 +671,9 @@ const TestingFacilities = () => {
                   Metallographic Hot Mounting Press: Prepares metallurgical
                   samples for analysis through hot mounting.
                 </p>
-                <a
-                  href="/"
-                  className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">
-                  Read More
-                </a>
+                {/* <Link className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"
+                to="/melt-flow-tester" 
+                >Read More</Link> */}
               </div>
             </div>
 
@@ -748,11 +694,9 @@ const TestingFacilities = () => {
                   3D Scanner: Captures three-dimensional data of objects for
                   analysis or reproduction.
                 </p>
-                <a
-                  href="/"
-                  className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">
-                  Read More
-                </a>
+                 <Link className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"
+                to="/melt-flow-tester" 
+                >Read More</Link>
               </div>
             </div> */}
 
@@ -773,11 +717,9 @@ const TestingFacilities = () => {
                   Surface Roughness Tester: Measures surface roughness of
                   materials for quality assessment.
                 </p>
-                <a
-                  href="/"
-                  className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">
-                  Read More
-                </a>
+                 <Link className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"
+                to="/melt-flow-tester" 
+                >Read More</Link>
               </div>
             </div> */}
 
@@ -798,11 +740,9 @@ const TestingFacilities = () => {
                   Inverted Metallurgical Microscope: Inspects metallurgical
                   samples with magnification from beneath.
                 </p>
-                <a
-                  href="/"
-                  className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">
-                  Read More
-                </a>
+                <Link className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"
+                to="/melt-flow-tester" 
+                >Read More</Link>
               </div>
             </div> */}
 
@@ -823,11 +763,9 @@ const TestingFacilities = () => {
                   Ultrasonic Tank: Utilizes ultrasonic waves for cleaning or
                   processing materials.
                 </p>
-                <a
-                  href="/"
-                  className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">
-                  Read More
-                </a>
+                 <Link className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"
+                to="/melt-flow-tester" 
+                >Read More</Link>
               </div>
             </div> */}
 
@@ -848,11 +786,9 @@ const TestingFacilities = () => {
                   Thermal Conductivity Tester: Determines the ability of
                   materials to conduct heat for engineering purposes.
                 </p>
-                <a
-                  href="/"
-                  className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">
-                  Read More
-                </a>
+                 <Link className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"
+                to="/melt-flow-tester" 
+                >Read More</Link>
               </div>
             </div> */}
 
@@ -873,11 +809,9 @@ const TestingFacilities = () => {
                   Digital Micrometer: Measures dimensions with high precision
                   using digital technology.
                 </p>
-                <a
-                  href="/"
-                  className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">
-                  Read More
-                </a>
+                {/* <Link className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"
+                to="/melt-flow-tester" 
+                >Read More</Link> */}
               </div>
             </div>
 
@@ -898,11 +832,9 @@ const TestingFacilities = () => {
                   Digital Vernier Caliper: Measures dimensions accurately with
                   digital readout for engineering applications.
                 </p>
-                <a
-                  href="/"
-                  className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">
-                  Read More
-                </a>
+                {/* <Link className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"
+                to="/melt-flow-tester" 
+                >Read More</Link> */}
               </div>
             </div>
 
@@ -923,11 +855,9 @@ const TestingFacilities = () => {
                   Pedestal Grinder: Sharpens and shapes tools and materials
                   using grinding wheels mounted on a pedestal.
                 </p>
-                <a
-                  href="/"
-                  className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">
-                  Read More
-                </a>
+                {/* <Link className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"
+                to="/melt-flow-tester" 
+                >Read More</Link> */}
               </div>
             </div>
 
