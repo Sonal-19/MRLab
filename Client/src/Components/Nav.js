@@ -74,7 +74,7 @@ export default function Navbar() {
                   <img className="h-16 w-auto lg:me-6 lg:h-94 lg:w-auto" src="/mrl3.png" alt="Your Company" />
                 </a>
               </div>
-              {/* Navigation Link*/}
+              {/* Navigation */}
               <div className="hidden sm:flex flex-grow justify-center font-semibold items-center ml-12 lg:mt-5 space-x-4">
                 {navigation.map((item) => (
                   <Link
