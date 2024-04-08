@@ -74,8 +74,8 @@ export default function Navbar() {
                   <img className="h-16 w-auto lg:me-6 lg:h-94 lg:w-auto" src="/mrl3.png" alt="Your Company" />
                 </a>
               </div>
-              {/* Navigation Links */}
-              <div className="hidden sm:flex flex-grow justify-center font-semibold items-center space-x-4 lg:mt-5 ml-12 lg:ml-20">
+              {/* Navigation */}
+              <div className="hidden sm:flex flex-grow justify-center font-medium text-black items-center space-x-4 lg:mt-5 ml-12 lg:ml-20">
                 {navigation.map((item) => (
                   <Link
                     key={item.name}
@@ -119,7 +119,7 @@ export default function Navbar() {
                 </div>
               </div>
               {/* Query Button - Only for Desktop */}
-              <div className="hidden sm:block font-serif absolute lg:right-0 lg:top-0 lg:mb-2 lg:mr-12">
+              <div className="hidden sm:block font-serif absolute lg:right-0 lg:top-0 lg:mb-2">
                 <a href="/queryform">
                   <button className="bg-green-500 text-white rounded-md px-6 py-4 text-lg font-serif">
                     {/* Query */}
