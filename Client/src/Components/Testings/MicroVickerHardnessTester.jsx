@@ -22,7 +22,7 @@ export default function MicroVickerHardnessTester() {
       <div className="w-full flex flex-col items-center" id="about-page">
         {/* <!-- Container for image --> */}
         <div className="flex items-center justify-center mt-8">
-          <img src="/mvrt.jpeg" alt="mvrt" className="max-w-full h-auto" />
+          <img src="/mvrt.jpg" alt="mvrt" className="max-w-full h-auto" />
         </div>
 
         {/* <!-- Content section --> */}
