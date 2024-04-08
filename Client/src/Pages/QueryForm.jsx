@@ -221,7 +221,7 @@ const QueryForm = () => {
             <form 
               onSubmit={(e) => {
                 e.preventDefault(); // Prevent default form submission
-                sendQueryForm(); // Call sendEmail function on form submission
+                sendQueryForm(); 
               }}
             className="max-w-lg mx-auto">
               <div className="mb-4">
