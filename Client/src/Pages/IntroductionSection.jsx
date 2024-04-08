@@ -23,9 +23,6 @@ function IntroductionSection() {
       url: '/lab10.jpg',
     },
     {
-      url: '/lab11.jpg',
-    },
-    {
       url: '/lab12.jpg',
     },
     
